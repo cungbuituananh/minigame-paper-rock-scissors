@@ -1,0 +1,53 @@
+.App {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-hand {
+  gap: 20px;
+  height: 90px;
+}
+.select-hand button {
+  width: 80px;
+  border: none;
+  background: none;
+}
+.select-hand button:hover {
+  border-radius: 5px;
+  background: rgb(187, 187, 187);
+  border: 1px solid rgb(8, 117, 8);
+}
+.select-hand button img {
+  width: 100%;
+}
+
+.show-hands {
+  height: 300px;
+}
+
+.show-hands img {
+  width: 200px;
+}
+.show-hands:last-child img {
+  transform: scaleX(-1);
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+}
+.result-board {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px black;
+  padding: 80px;
+}
